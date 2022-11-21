@@ -51,7 +51,10 @@ function App() {
 
   return (
     <div className="App">
-      <Banner />
+      <Banner
+        endereçoImagem="/imagens/banner.svg"
+        textoAlternativa="O banner principal da página do Organo"
+      />
       <Formulario
         times={times.map((time) => time.nome)}
         aoColaboradorCadastrado={(colaborador) =>
