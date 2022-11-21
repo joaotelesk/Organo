@@ -1,4 +1,4 @@
-import { Icorabodaor } from "../../compartinhado/interfaces/IColaborador";
+import { Icolabodaor } from "../../compartinhado/interfaces/IColaborador";
 import Colaborador from "../Colaborador";
 import "./Time.css";
 
@@ -6,7 +6,7 @@ interface TimeProps {
   corPrimaria: string;
   corSecundaria: string;
   nome: string;
-  colaboradores: Icorabodaor[];
+  colaboradores: Icolabodaor[];
 }
 const Time = ({
   colaboradores,
@@ -30,7 +30,7 @@ const Time = ({
       </div>
     </section>
   ) : (
-    ""
+    <></>
   );
 };
 

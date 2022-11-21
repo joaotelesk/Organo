@@ -3,10 +3,10 @@ import CampoTexto from "../CampoTexto";
 import ListaSuspensa from "../ListaSuspensa";
 import "./Formulario.css";
 import React, { useState } from "react";
-import { Icorabodaor } from "../../compartinhado/interfaces/IColaborador";
+import { Icolabodaor } from "../../compartinhado/interfaces/IColaborador";
 
 interface FormularioProps {
-  aoColaboradorCadastrado: (colaborador: Icorabodaor) => void;
+  aoColaboradorCadastrado: (colaborador: Icolabodaor) => void;
   times: string[];
 }
 
