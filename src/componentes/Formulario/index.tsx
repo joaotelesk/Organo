@@ -2,14 +2,20 @@ import Botao from "../Botao";
 import CampoTexto from "../CampoTexto";
 import ListaSuspensa from "../ListaSuspensa";
 import "./Formulario.css";
-import { useState } from "react";
+import React, { useState } from "react";
+import { Icorabodaor } from "../../compartinhado/interfaces/IColaborador";
 
-const Formulario = (props) => {
+interface FormularioProps {
+  aoColaboradorCadastrado: (colaborador: Icorabodaor) => void;
+  times: string[];
+}
+
+const Formulario = (props: FormularioProps) => {
   const [nome, setNome] = useState("");
   const [cargo, setCargo] = useState("");
   const [imagem, setImagem] = useState("");
   const [time, setTime] = useState("");
-  const aoSalvar = (event) => {
+  const aoSalvar = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     props.aoColaboradorCadastrado({
       nome,
