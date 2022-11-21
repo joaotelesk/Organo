@@ -1,4 +1,4 @@
-export interface Icorabodaor {
+export interface Icolabodaor {
   nome: string;
   cargo: string;
   imagem: string;
