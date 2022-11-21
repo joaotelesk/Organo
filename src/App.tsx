@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Icolabodaor } from "./compartinhado/interfaces/IColaborador";
 import Banner from "./componentes/Banner";
 
 import Formulario from "./componentes/Formulario";
@@ -44,8 +45,8 @@ function App() {
     },
   ];
 
-  const [colaboradores, setColaboradores] = useState([]);
-  const aoNovoColaboradorAdicionado = (colaborador) => {
+  const [colaboradores, setColaboradores] = useState<Icolabodaor[]>([]);
+  const aoNovoColaboradorAdicionado = (colaborador: Icolabodaor) => {
     setColaboradores([...colaboradores, colaborador]);
   };
 
