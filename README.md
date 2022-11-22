@@ -14,7 +14,7 @@
 
 - Enter as pricipais diferenças entre JS e TS
 - Integrar componentes React ao TypeScript
-- Protoipar um plano de migração de JS para TS
+- Prototipar um plano de migração de JS para TS
 
 O site já está no ar e você pode acessar aqui: [Meu site pessoal](https://organo-xi-eight.vercel.app/)
 
@@ -22,17 +22,18 @@ O site já está no ar e você pode acessar aqui: [Meu site pessoal](https://org
 
 # 🧠 Contexto
 
-O objetivo será criar um protótipo de migração de JS para TS do meu primeiro projeto em react
+O objetivo foi migração o meu primeiro projeto em React que estava em JavaScript para TypeScript
 
 <br />
 
 ### `Tecnologias usadas`
 
-| Ferramenta | Descrição                                           |
-| ---------- | --------------------------------------------------- |
-| `ReactJS`  | framework web                                       |
-| `ESLint`   | Biblioteca de padronização e padronização de código |
-| `npm`      | gerenciador de pacotes                              |
+| Ferramenta   | Descrição                                                                                                                                                               |
+| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `ReactJS`    | framework web                                                                                                                                                           |
+| `TypeScript` | conjunto de ferramentas e formas mais eficientes de escrever código JavaScript, adicionando recursos de tipagem que não estão presentes de maneira nativa na linguagem. |
+| `ESLint`     | Biblioteca de padronização e padronização de código                                                                                                                     |
+| `npm`        | gerenciador de pacotes                                                                                                                                                  |
 
 <br />
 <br />
@@ -44,7 +45,7 @@ Siga os passos e inclua as informações abaixo:
 | Passo                                                | Comando/informação |
 | ---------------------------------------------------- | ------------------ |
 | Faça o fork                                          | `botão de forkar`  |
-| Faça o clone                                         | `git clone #`      |
+| Faça o clone                                         | `git clone #URL`   |
 | Instale as dependências após acessar a pasta projeto | `npm i`            |
 | Rode o projeto                                       | `npm run start`    |
 
